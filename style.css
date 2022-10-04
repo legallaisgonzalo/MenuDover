@@ -1,14 +1,13 @@
-
 body {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   font-size: 30px;
   background-image: url(img/png/textura1.png);
   background-color: rgba(0, 0, 0, 0.896);
   padding: 10px;
+  max-width: 100%;
+  overflow-x: hidden;
 }
-.bebidasBody{
-  background-color:rgb(71, 117, 49);
-}
+
 
 img {
   opacity: 1;
@@ -20,7 +19,7 @@ img {
   flex-direction: column;
   align-items: center;
   color: white;
-  padding: 20px;
+  padding: 14px;
 }
 
 .titulo {
@@ -34,37 +33,36 @@ img {
   text-align: center;
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
   padding: 25px;
-  margin: 25px;
+  margin: 15px;
 }
 a {
   text-decoration: none;
   font-family: "Montserrat", cursive;
   color: white;
 }
-.menuPrincipal{
-  padding: 50px;
+.menuPrincipal {
+  padding: 20px;
 }
 h1 {
   text-decoration: none;
-  font-family: "Bebas neue",cursive;
+  font-family: "Bebas neue", cursive;
   color: yellow;
-  font-size: 120px;
+  font-size: 80px;
 }
 h2 {
   font-family: "Bebas neue", cursive;
-  color: black;
+  color:yellowgreen;
   font-size: 40px;
 }
 h3 {
   font-family: "Bebas neue", cursive;
-  color:chartreuse;
+  color: chartreuse;
   font-size: 48px;
 }
 
 .subtitulo {
-  
   flex-direction: column;
   display: flex;
   justify-content: center;
@@ -80,18 +78,23 @@ span {
   font-family: "Bebas neue", cursive;
   list-style: none;
   font-size: 40px;
-  color: yellow(255, 225, 0);
+  color: yellow;
   rotate: 10deg;
-  scale: 1.2;
+
+}
+.bebidasLetras{
+  color: white;
+  font-family: "Montserrat", cursive;
 }
 
 .detalleMenu {
   display: flex;
   font-size: 25px;
-  color:thistle;
+  color: thistle;
   font-family: "Montserrat", cursive;
 }
-.logo{
+
+.logo {
   flex-direction: column;
   display: flex;
   justify-content: center;
