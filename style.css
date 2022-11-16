@@ -125,6 +125,9 @@ span {
   td{
     color: white;
   }
+  .ADetalles{
+    font-size: 20px;
+  }
 
 
   @media only screen and (max-width: 600px) {
